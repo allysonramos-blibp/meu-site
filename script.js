@@ -93,3 +93,7 @@ const visitorName = prompt("Qual é o seu nome?");
 if (visitorName) {
     alert(`Olá, ${visitorName}! Seja bem-vindo ao meu portfólio.`);
 }
+
+function modoEscuro(){
+    document.body.classList.toggle("dark-mode");
+}
